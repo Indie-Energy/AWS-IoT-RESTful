@@ -8,7 +8,15 @@
 		<Item Name="SSL_Connection.ctl" Type="VI" URL="../Controls/SSL_Connection.ctl"/>
 		<Item Name="SSL_login.ctl" Type="VI" URL="../Controls/SSL_login.ctl"/>
 	</Item>
+	<Item Name="Examples" Type="Folder">
+		<Item Name="SimpleConnectAndPublish.vi" Type="VI" URL="../Examples/SimpleConnectAndPublish.vi"/>
+	</Item>
+	<Item Name="MQTT" Type="Folder">
+		<Item Name="MQTT_SSL_Connect.vi" Type="VI" URL="../MQTT/MQTT_SSL_Connect.vi"/>
+	</Item>
 	<Item Name="SSL" Type="Folder">
 		<Item Name="SSL_Connect.vi" Type="VI" URL="../SSL/SSL_Connect.vi"/>
+		<Item Name="SSL_Read.vi" Type="VI" URL="../SSL/SSL_Read.vi"/>
+		<Item Name="SSL_Write.vi" Type="VI" URL="../SSL/SSL_Write.vi"/>
 	</Item>
 </Library>
