@@ -4,6 +4,40 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">352354304</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="AWS-IoT-RESTful" Type="Folder">
+		<Item Name=".idea" Type="Folder">
+			<Item Name="copyright" Type="Folder">
+				<Item Name="profiles_settings.xml" Type="Document" URL="../.idea/copyright/profiles_settings.xml"/>
+			</Item>
+			<Item Name="AWS-IoT-RESTful.iml" Type="Document" URL="../.idea/AWS-IoT-RESTful.iml"/>
+			<Item Name="compiler.xml" Type="Document" URL="../.idea/compiler.xml"/>
+			<Item Name="misc.xml" Type="Document" URL="../.idea/misc.xml"/>
+			<Item Name="modules.xml" Type="Document" URL="../.idea/modules.xml"/>
+			<Item Name="vcs.xml" Type="Document" URL="../.idea/vcs.xml"/>
+			<Item Name="workspace.xml" Type="Document" URL="../.idea/workspace.xml"/>
+		</Item>
+		<Item Name="Controls" Type="Folder"/>
+		<Item Name="Examples" Type="Folder"/>
+		<Item Name="misc" Type="Folder"/>
+		<Item Name="MQTT" Type="Folder">
+			<Item Name="Controls" Type="Folder"/>
+			<Item Name="ReadResponse" Type="Folder"/>
+			<Item Name="Sub" Type="Folder">
+				<Item Name="MQTT_TCP_Open_Connection.vi" Type="VI" URL="../MQTT/Sub/MQTT_TCP_Open_Connection.vi"/>
+			</Item>
+		</Item>
+		<Item Name="private" Type="Folder"/>
+		<Item Name="SSL" Type="Folder">
+			<Item Name="private" Type="Folder">
+				<Item Name="GetSSLLibraryPath.vi" Type="VI" URL="../SSL/private/GetSSLLibraryPath.vi"/>
+			</Item>
+		</Item>
+		<Item Name=".gitignore" Type="Document" URL="../.gitignore"/>
+		<Item Name="AWS_IoT.aliases" Type="Document" URL="../AWS_IoT.aliases"/>
+		<Item Name="AWS_IoT.lvlps" Type="Document" URL="../AWS_IoT.lvlps"/>
+		<Item Name="LICENSE" Type="Document" URL="../LICENSE"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
+	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="SSL_Connection.ctl" Type="VI" URL="../Controls/SSL_Connection.ctl"/>
 		<Item Name="SSL_login.ctl" Type="VI" URL="../Controls/SSL_login.ctl"/>
@@ -11,11 +45,15 @@
 	<Item Name="Examples" Type="Folder">
 		<Item Name="SimpleConnectAndPublish.vi" Type="VI" URL="../Examples/SimpleConnectAndPublish.vi"/>
 	</Item>
+	<Item Name="misc" Type="Folder">
+		<Item Name="Untitled 9.vi" Type="VI" URL="../misc/Untitled 9.vi"/>
+	</Item>
 	<Item Name="MQTT" Type="Folder">
 		<Item Name="MQTT_SSL_Connect.vi" Type="VI" URL="../MQTT/MQTT_SSL_Connect.vi"/>
 	</Item>
 	<Item Name="SSL" Type="Folder">
 		<Item Name="SSL_Connect.vi" Type="VI" URL="../SSL/SSL_Connect.vi"/>
+		<Item Name="SSL_Disconnect.vi" Type="VI" URL="../SSL/SSL_Disconnect.vi"/>
 		<Item Name="SSL_Read.vi" Type="VI" URL="../SSL/SSL_Read.vi"/>
 		<Item Name="SSL_Write.vi" Type="VI" URL="../SSL/SSL_Write.vi"/>
 	</Item>
