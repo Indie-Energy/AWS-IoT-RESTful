@@ -46,13 +46,15 @@
 		<Item Name="SimpleConnectAndPublish.vi" Type="VI" URL="../Examples/SimpleConnectAndPublish.vi"/>
 	</Item>
 	<Item Name="misc" Type="Folder">
-		<Item Name="Untitled 9.vi" Type="VI" URL="../misc/Untitled 9.vi"/>
+		<Item Name="SSL Tester.vi" Type="VI" URL="../misc/SSL Tester.vi"/>
+		<Item Name="UTFencoder.vi" Type="VI" URL="../misc/UTFencoder.vi"/>
 	</Item>
 	<Item Name="MQTT" Type="Folder">
 		<Item Name="MQTT_SSL_Connect.vi" Type="VI" URL="../MQTT/MQTT_SSL_Connect.vi"/>
 	</Item>
 	<Item Name="SSL" Type="Folder">
 		<Item Name="SSL_Connect.vi" Type="VI" URL="../SSL/SSL_Connect.vi"/>
+		<Item Name="SSL_Connect_With_Keys.vi" Type="VI" URL="../SSL/SSL_Connect_With_Keys.vi"/>
 		<Item Name="SSL_Disconnect.vi" Type="VI" URL="../SSL/SSL_Disconnect.vi"/>
 		<Item Name="SSL_Read.vi" Type="VI" URL="../SSL/SSL_Read.vi"/>
 		<Item Name="SSL_Write.vi" Type="VI" URL="../SSL/SSL_Write.vi"/>
