@@ -19,6 +19,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="appendError.vi" Type="VI" URL="../SSL/private/appendError.vi"/>
 		<Item Name="AWS_IoT.lvlib" Type="Library" URL="../AWS_IoT.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -52,6 +53,7 @@
 			<Item Name="Sub_Get_Number_from_Remaining_Length.vi" Type="VI" URL="../MQTT/Sub/Sub_Get_Number_from_Remaining_Length.vi"/>
 			<Item Name="Sub_Read_Fixed_Header.vi" Type="VI" URL="../MQTT/Sub/Sub_Read_Fixed_Header.vi"/>
 			<Item Name="User_Info.ctl" Type="VI" URL="../MQTT/Controls/User_Info.ctl"/>
+			<Item Name="VerifyCertificates.vi" Type="VI" URL="../SSL/private/VerifyCertificates.vi"/>
 			<Item Name="Will_Info.ctl" Type="VI" URL="../MQTT/Controls/Will_Info.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
