@@ -5,17 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="AWS-IoT-RESTful" Type="Folder">
-		<Item Name=".idea" Type="Folder">
-			<Item Name="copyright" Type="Folder">
-				<Item Name="profiles_settings.xml" Type="Document" URL="../.idea/copyright/profiles_settings.xml"/>
-			</Item>
-			<Item Name="AWS-IoT-RESTful.iml" Type="Document" URL="../.idea/AWS-IoT-RESTful.iml"/>
-			<Item Name="compiler.xml" Type="Document" URL="../.idea/compiler.xml"/>
-			<Item Name="misc.xml" Type="Document" URL="../.idea/misc.xml"/>
-			<Item Name="modules.xml" Type="Document" URL="../.idea/modules.xml"/>
-			<Item Name="vcs.xml" Type="Document" URL="../.idea/vcs.xml"/>
-			<Item Name="workspace.xml" Type="Document" URL="../.idea/workspace.xml"/>
-		</Item>
 		<Item Name="Controls" Type="Folder"/>
 		<Item Name="Examples" Type="Folder"/>
 		<Item Name="misc" Type="Folder"/>
@@ -43,9 +32,7 @@
 		<Item Name="SSL_Connection.ctl" Type="VI" URL="../Controls/SSL_Connection.ctl"/>
 		<Item Name="SSL_login.ctl" Type="VI" URL="../Controls/SSL_login.ctl"/>
 	</Item>
-	<Item Name="Examples" Type="Folder">
-		<Item Name="SimpleConnectAndPublish.vi" Type="VI" URL="../Examples/SimpleConnectAndPublish.vi"/>
-	</Item>
+	<Item Name="Examples" Type="Folder"/>
 	<Item Name="misc" Type="Folder">
 		<Item Name="appendError.vi" Type="VI" URL="../SSL/private/appendError.vi"/>
 		<Item Name="SSL Tester with MQTT.vi" Type="VI" URL="../misc/SSL Tester with MQTT.vi"/>
