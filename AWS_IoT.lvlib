@@ -39,6 +39,7 @@
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
+		<Item Name="certs.ctl" Type="VI" URL="../Controls/certs.ctl"/>
 		<Item Name="SSL_Connection.ctl" Type="VI" URL="../Controls/SSL_Connection.ctl"/>
 		<Item Name="SSL_login.ctl" Type="VI" URL="../Controls/SSL_login.ctl"/>
 	</Item>
@@ -46,6 +47,7 @@
 		<Item Name="SimpleConnectAndPublish.vi" Type="VI" URL="../Examples/SimpleConnectAndPublish.vi"/>
 	</Item>
 	<Item Name="misc" Type="Folder">
+		<Item Name="SSL Tester with MQTT.vi" Type="VI" URL="../misc/SSL Tester with MQTT.vi"/>
 		<Item Name="SSL Tester.vi" Type="VI" URL="../misc/SSL Tester.vi"/>
 		<Item Name="UTFencoder.vi" Type="VI" URL="../misc/UTFencoder.vi"/>
 	</Item>
