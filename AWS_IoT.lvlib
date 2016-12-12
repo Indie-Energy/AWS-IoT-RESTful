@@ -47,6 +47,7 @@
 		<Item Name="SimpleConnectAndPublish.vi" Type="VI" URL="../Examples/SimpleConnectAndPublish.vi"/>
 	</Item>
 	<Item Name="misc" Type="Folder">
+		<Item Name="appendError.vi" Type="VI" URL="../SSL/private/appendError.vi"/>
 		<Item Name="SSL Tester with MQTT.vi" Type="VI" URL="../misc/SSL Tester with MQTT.vi"/>
 		<Item Name="SSL Tester.vi" Type="VI" URL="../misc/SSL Tester.vi"/>
 		<Item Name="UTFencoder.vi" Type="VI" URL="../misc/UTFencoder.vi"/>
@@ -61,4 +62,5 @@
 		<Item Name="SSL_Read.vi" Type="VI" URL="../SSL/SSL_Read.vi"/>
 		<Item Name="SSL_Write.vi" Type="VI" URL="../SSL/SSL_Write.vi"/>
 	</Item>
+	<Item Name="SSL_CTX_use_certificate.vi" Type="VI" URL="../SSL/SSL_CTX_use_certificate.vi"/>
 </Library>
