@@ -58,9 +58,9 @@
 	<Item Name="SSL" Type="Folder">
 		<Item Name="SSL_Connect.vi" Type="VI" URL="../SSL/SSL_Connect.vi"/>
 		<Item Name="SSL_Connect_With_Keys.vi" Type="VI" URL="../SSL/SSL_Connect_With_Keys.vi"/>
+		<Item Name="SSL_CTX_use_certificate.vi" Type="VI" URL="../SSL/SSL_CTX_use_certificate.vi"/>
 		<Item Name="SSL_Disconnect.vi" Type="VI" URL="../SSL/SSL_Disconnect.vi"/>
 		<Item Name="SSL_Read.vi" Type="VI" URL="../SSL/SSL_Read.vi"/>
 		<Item Name="SSL_Write.vi" Type="VI" URL="../SSL/SSL_Write.vi"/>
 	</Item>
-	<Item Name="SSL_CTX_use_certificate.vi" Type="VI" URL="../SSL/SSL_CTX_use_certificate.vi"/>
 </Library>
