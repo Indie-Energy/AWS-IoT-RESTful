@@ -32,7 +32,10 @@
 		<Item Name="SSL_Connection.ctl" Type="VI" URL="../Controls/SSL_Connection.ctl"/>
 		<Item Name="SSL_login.ctl" Type="VI" URL="../Controls/SSL_login.ctl"/>
 	</Item>
-	<Item Name="Examples" Type="Folder"/>
+	<Item Name="Examples" Type="Folder">
+		<Item Name="SimpleConnectAndPublish.vi" Type="VI" URL="../Examples/SimpleConnectAndPublish.vi"/>
+		<Item Name="SimpleConnectAndSubscribe.vi" Type="VI" URL="../Examples/SimpleConnectAndSubscribe.vi"/>
+	</Item>
 	<Item Name="misc" Type="Folder">
 		<Item Name="appendError.vi" Type="VI" URL="../SSL/private/appendError.vi"/>
 		<Item Name="SSL Tester with MQTT.vi" Type="VI" URL="../misc/SSL Tester with MQTT.vi"/>
