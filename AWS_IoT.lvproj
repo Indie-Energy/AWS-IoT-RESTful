@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="16008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -20,59 +20,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AWS_IoT.lvlib" Type="Library" URL="../AWS_IoT.lvlib"/>
-		<Item Name="ConnectMeta.ctl" Type="VI" URL="../MQTT/Controls/ConnectMeta.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
-				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Conn_FGV_Cmds.ctl" Type="VI" URL="../MQTT/Controls/Conn_FGV_Cmds.ctl"/>
-			<Item Name="Conn_Stat_FGV_Cmds.ctl" Type="VI" URL="../MQTT/Controls/Conn_Stat_FGV_Cmds.ctl"/>
-			<Item Name="Connect_Flags.ctl" Type="VI" URL="../MQTT/Controls/Connect_Flags.ctl"/>
-			<Item Name="Connection_Return_Codes.ctl" Type="VI" URL="../MQTT/Controls/Connection_Return_Codes.ctl"/>
-			<Item Name="DUP_Flag.ctl" Type="VI" URL="../MQTT/Controls/DUP_Flag.ctl"/>
-			<Item Name="MessageType.ctl" Type="VI" URL="../MQTT/Controls/MessageType.ctl"/>
-			<Item Name="MQTT_ConnAck_Read.vi" Type="VI" URL="../MQTT/ReadResponse/MQTT_ConnAck_Read.vi"/>
-			<Item Name="MQTT_PubAck_Read.vi" Type="VI" URL="../MQTT/ReadResponse/MQTT_PubAck_Read.vi"/>
-			<Item Name="MQTT_PubAck_Send.vi" Type="VI" URL="../MQTT/Sub/MQTT_PubAck_Send.vi"/>
-			<Item Name="MQTT_PubComp_Read.vi" Type="VI" URL="../MQTT/ReadResponse/MQTT_PubComp_Read.vi"/>
-			<Item Name="MQTT_PubComp_Send.vi" Type="VI" URL="../MQTT/Sub/MQTT_PubComp_Send.vi"/>
-			<Item Name="MQTT_PubRec_Read.vi" Type="VI" URL="../MQTT/ReadResponse/MQTT_PubRec_Read.vi"/>
-			<Item Name="MQTT_PubRec_Send.vi" Type="VI" URL="../MQTT/Sub/MQTT_PubRec_Send.vi"/>
-			<Item Name="MQTT_PubRel_Read.vi" Type="VI" URL="../MQTT/ReadResponse/MQTT_PubRel_Read.vi"/>
-			<Item Name="MQTT_PubRel_Send.vi" Type="VI" URL="../MQTT/Sub/MQTT_PubRel_Send.vi"/>
-			<Item Name="MQTT_Read_Published_Message.vi" Type="VI" URL="../MQTT/MQTT_Read_Published_Message.vi"/>
-			<Item Name="MQTT_SSL_Disconnect.vi" Type="VI" URL="../MQTT/MQTT_SSL_Disconnect.vi"/>
-			<Item Name="MQTT_SSL_Publish.vi" Type="VI" URL="../MQTT/MQTT_SSL_Publish.vi"/>
-			<Item Name="MQTT_SubAck_Read.vi" Type="VI" URL="../MQTT/ReadResponse/MQTT_SubAck_Read.vi"/>
-			<Item Name="MQTT_Subscribe.vi" Type="VI" URL="../MQTT/MQTT_Subscribe.vi"/>
-			<Item Name="QoS.ctl" Type="VI" URL="../MQTT/Controls/QoS.ctl"/>
-			<Item Name="Retain_Flag.ctl" Type="VI" URL="../MQTT/Controls/Retain_Flag.ctl"/>
-			<Item Name="Sub_Build_Connect_Flags_Byte.vi" Type="VI" URL="../MQTT/Sub/Sub_Build_Connect_Flags_Byte.vi"/>
-			<Item Name="Sub_Build_Fixed_Header.vi" Type="VI" URL="../MQTT/Sub/Sub_Build_Fixed_Header.vi"/>
-			<Item Name="Sub_Build_MQTT_PubPayload_String.vi" Type="VI" URL="../MQTT/Sub/Sub_Build_MQTT_PubPayload_String.vi"/>
-			<Item Name="Sub_Build_MQTT_String.vi" Type="VI" URL="../MQTT/Sub/Sub_Build_MQTT_String.vi"/>
-			<Item Name="Sub_Build_Variable_Header_Connect.vi" Type="VI" URL="../MQTT/Sub/Sub_Build_Variable_Header_Connect.vi"/>
-			<Item Name="Sub_Build_Variable_Header_Publish.vi" Type="VI" URL="../MQTT/Sub/Sub_Build_Variable_Header_Publish.vi"/>
-			<Item Name="Sub_Conn_Status_FGV.vi" Type="VI" URL="../MQTT/Sub/Sub_Conn_Status_FGV.vi"/>
-			<Item Name="Sub_Connect_FGV.vi" Type="VI" URL="../MQTT/Sub/Sub_Connect_FGV.vi"/>
-			<Item Name="Sub_Create_Remaining_Length.vi" Type="VI" URL="../MQTT/Sub/Sub_Create_Remaining_Length.vi"/>
-			<Item Name="Sub_Get_Number_from_Remaining_Length.vi" Type="VI" URL="../MQTT/Sub/Sub_Get_Number_from_Remaining_Length.vi"/>
-			<Item Name="Sub_Read_Fixed_Header.vi" Type="VI" URL="../MQTT/Sub/Sub_Read_Fixed_Header.vi"/>
-			<Item Name="Sub_Read_MQTT_String.vi" Type="VI" URL="../MQTT/Sub/Sub_Read_MQTT_String.vi"/>
-			<Item Name="Sub_Read_Variable_Header.vi" Type="VI" URL="../MQTT/Sub/Sub_Read_Variable_Header.vi"/>
-			<Item Name="VerifyCertificates.vi" Type="VI" URL="../SSL/private/VerifyCertificates.vi"/>
-			<Item Name="Will_Info.ctl" Type="VI" URL="../MQTT/Controls/Will_Info.ctl"/>
+			<Item Name="MQTT_TCP_Open_Connection.vi" Type="VI" URL="../MQTT/Sub/MQTT_TCP_Open_Connection.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
