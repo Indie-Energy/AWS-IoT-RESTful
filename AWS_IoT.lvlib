@@ -78,4 +78,5 @@
 		<Item Name="SSL_Read.vi" Type="VI" URL="../SSL/SSL_Read.vi"/>
 		<Item Name="SSL_Write.vi" Type="VI" URL="../SSL/SSL_Write.vi"/>
 	</Item>
+	<Item Name="SimpleConnectWithPublishAndSubscribe.vi" Type="VI" URL="../Examples/SimpleConnectWithPublishAndSubscribe.vi"/>
 </Library>
