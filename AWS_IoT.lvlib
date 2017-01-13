@@ -12,6 +12,7 @@
 	<Item Name="Examples" Type="Folder">
 		<Item Name="SimpleConnectAndPublish.vi" Type="VI" URL="../Examples/SimpleConnectAndPublish.vi"/>
 		<Item Name="SimpleConnectAndSubscribe.vi" Type="VI" URL="../Examples/SimpleConnectAndSubscribe.vi"/>
+		<Item Name="SimpleConnectWithPublishAndSubscribe.vi" Type="VI" URL="../Examples/SimpleConnectWithPublishAndSubscribe.vi"/>
 	</Item>
 	<Item Name="MQTT" Type="Folder">
 		<Item Name="Controls" Type="Folder">
@@ -78,5 +79,4 @@
 		<Item Name="SSL_Read.vi" Type="VI" URL="../SSL/SSL_Read.vi"/>
 		<Item Name="SSL_Write.vi" Type="VI" URL="../SSL/SSL_Write.vi"/>
 	</Item>
-	<Item Name="SimpleConnectWithPublishAndSubscribe.vi" Type="VI" URL="../Examples/SimpleConnectWithPublishAndSubscribe.vi"/>
 </Library>
